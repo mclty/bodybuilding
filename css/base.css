@@ -1,0 +1,54 @@
+body{
+	margin:0;
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑;
+}
+body a{
+	transition:0.5s all;
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;			   
+}
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+nav a{
+	margin-right:25px;
+}
+body a:{
+	text-decoration:none;
+}
+/*--container--*/
+.container{
+	background:#272727;
+padding:100px 0;
+}
+.header{
+	background:#ffffff;
+	padding: 38px 30px;
+	margin:0 10%;
+}
+.logo{
+	float:left;
+	width:11%;
+	margin-top: 0px;
+}
+.logo img{
+	position:absolute;
+	left:150px;
+	top:71px;
+	width:10%;
+}
+nav{
+    float: left;
+    width: 80%;
+    text-align: right;
+    margin-top: 0px;
+}
+
+
+	
