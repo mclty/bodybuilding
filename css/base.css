@@ -1,6 +1,7 @@
+/*--head--*/
 body{
 	margin:0;
-	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑;
+	font-family:"Georgia","Microsoft YaHei","黑体","serif";
 }
 body a{
 	transition:0.5s all;
@@ -16,38 +17,57 @@ ul{
 	margin:0;
 	padding:0;
 }
-nav a{
+nav a:link,a:visited{
 	margin-right:25px;
+	color:#272727;
+	font-weight:700;
+	font-size:20px;
 }
 body a:{
 	text-decoration:none;
 }
 /*--container--*/
 .container{
-	background:#272727;
-padding:100px 0;
+	background-color:#272727;
+	padding:100px 0;
 }
 .header{
-	background:#ffffff;
-	padding: 38px 30px;
-	margin:0 10%;
+	background-color:#ffffff;
+	padding: 38px 10px;
+	margin:0 15%;
 }
 .logo{
 	float:left;
 	width:11%;
-	margin-top: 0px;
 }
 .logo img{
 	position:absolute;
-	left:150px;
+	left:230px;
 	top:71px;
 	width:10%;
 }
 nav{
     float: left;
-    width: 80%;
+    width: 92%;
     text-align: right;
-    margin-top: 0px;
+    margin-top: -12px;
+}
+.wrap{
+	padding:80px 80px 0 80px;
+	background:#424448;
+	margin:25px 15% 0;
+}
+.footer p{
+	color:#d7dde6;
+	font-size:16px;
+	margin:0px 0;
+	text-align:center;
+}
+.footer p span{
+	color:#f27b47;
+}
+.footer {
+	margin-top:80px;
 }
 
 
